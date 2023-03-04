@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont {
+    display: flex;
+    background-color: black;
+    height: 4rem;
+}
+
+.toolbox-color {
+    width: 18rem;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.toolbox-color>div {
+    height: 2rem;
+    width: 3rem;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: rgb(80, 17, 206);
+}
+
+.action-btn-cont {
+    width: 5rem;
+
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.action-btn-cont i{
+    font-size: 1.8rem;
+    color: white;
+    /* margin-left: 2rem; */
+}
+
+.modal-cont {
+    height: 50vh;
+    background-color: rgb(130, 248, 252);
+     width: 45vw;
+    display: none;
+    position: absolute;
+    top: calc((100vh - 50vh) / 2);
+    left: calc((100vw - 45vw) / 2);
+
+}
+
+.text-area-cont {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(130, 248, 252);
+    display: flex;
+    border: none;
+    resize: none;
+    font-size: 2rem;
+    outline: none;
+
+}
+
+.text-area-color-cont {
+    width: 11vw;
+    height: 50vh;
+    margin-top: -22.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(81, 14, 14);
+    margin-left: 33rem;
+    position: absolute;
+    top: calc((100vh - 0vh) / 2);
+    /* left: calc((100vw - 45vw) / 2); */
+}
+
+/* .main-cont {
+    display: flex;
+    /* justify-content: center; */
+    /* margin-top: 10rem;
+} */ 
+
+.text-area-color-cont>div{
+    height: 10%;
+    width: 40%;
+    /* margin-left: 1.5rem; */
+}
+
+.main-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.ticket-cont {
+    /* display: flex; */
+    height: 12rem;
+    width: 15rem;
+    background-color: rgb(219, 213, 205);
+    margin-top: 6rem;
+}
+
+.ticket-color {
+    height: 1rem;
+    background-color: red;
+}
+
+.ticket-id {
+    height:  2rem;
+    background-color: rgb(100, 218, 100);
+}
+
+.task-area {
+   height: 75%;
+    /* height: calc(100 - 1rem- 2rem); */
+    font-size: 1.5rem;
+}
+
+.ticket-lock {
+    display: flex;
+    justify-content: flex-end;
+    margin: -30px;
+    margin-top: -1.7rem;
+    margin-right: 11px;
+    font-size: 1.5rem; 
+}
